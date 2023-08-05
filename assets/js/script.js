@@ -10,5 +10,11 @@ function writePassword() {
 
 }
 
+// Generate a password based on criteria given
+function generatePassword() {
+  
+
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
