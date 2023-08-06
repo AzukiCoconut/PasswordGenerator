@@ -31,11 +31,12 @@
     </div>
     <div id="dialogBox" class="modal">
       <div class="modal-content">
-      <form>
+          <p id="validationTextBox"></p>
           <label for="passLength">Password length (8 to 128 characters): </label>
           <input type="text" name="passLength" id="passLength" required>
           <fieldset>
             <legend>Password options to include (Select at least one)</legend>
+            <p id="validation-message"></p>
             <div class="checkboxPair">
               <input type="checkbox" name="lowercase" id="lowercase" value="Lowercase">
               <label for="lowercase">Lowercase</label>
@@ -55,7 +56,6 @@
           </fieldset>
           <button type="cancel" id="close">Cancel</button>
           <button type="submit" id="submit">Submit</button>
-        </form>
       </div>
     </div>
     <script src="./assets/js/script.js"></script>
