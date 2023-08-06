@@ -29,6 +29,35 @@
         </div>
       </div>
     </div>
+    <div id="dialogBox" class="modal">
+      <div class="modal-content">
+      <form>
+          <label for="passLength">Password length (8 to 128 characters): </label>
+          <input type="text" name="passLength" id="passLength" required>
+          <fieldset>
+            <legend>Password options to include (Select at least one)</legend>
+            <div class="checkboxPair">
+              <input type="checkbox" name="lowercase" id="lowercase" value="Lowercase">
+              <label for="lowercase">Lowercase</label>
+            </div>
+            <div class="checkboxPair">
+              <input type="checkbox" name="uppercase" id="uppercase" value="Uppercase">
+              <label for="uppercase">Uppercase</label>
+            </div>
+            <div class="checkboxPair">
+              <input type="checkbox" name="numeric" id="numeric" value="Numeric">
+              <label for="numeric">Numeric</label>
+            </div>
+            <div class="checkboxPair">
+              <input type="checkbox" name="specChar" id="specChar" value="Special Charaters">
+              <label for="specChar">Special Characters</label>
+            </div>
+          </fieldset>
+          <button type="cancel" id="close">Cancel</button>
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
