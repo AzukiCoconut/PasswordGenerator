@@ -118,6 +118,7 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* CSS for the dialog box that pops up for password options */
 #dialogBox {
   display: none;
   position: fixed;
@@ -132,7 +133,7 @@ button[disabled] {
   animation-name: fadeIn;
   animation-duration: 0.4s;
 }
-
+/* Styling for the modal content div */
 .modal-content {
   background-color: #fefefe;
   margin: 15% auto;
@@ -142,26 +143,31 @@ button[disabled] {
   font-size: 16px;
 }
 
+/* CSS for the validation messages */
 #validationTextBox, #validation-message {
   color: red;
 }
 
+/* Styling for the text box */
 input[type=text] {
   padding: 5px 3px;
   margin: 8px 0;
   box-sizing: border-box;
 }
 
+/* Styling for the checkboxes */
 input[type=checkbox] {
   display:inline-block;
 }
 
+/* Styling for the feildset */
 fieldset {
   margin: 8px 0;
   padding: 12px 20px;
 }
 
 @media (max-width: 998px) {
+  /* Responsive styling for the modal content */
   .modal-content{
     width: 50%;
   }
@@ -178,11 +184,12 @@ fieldset {
     font-size: 1rem;
   }
 
+  /* Responsive styling for the modal content */
   .modal-content {
     width: 75%;
     font-size: 14px;
   }
-
+  /* Responsive styling for the modal button */
   form button {
     font-size: 14px;
   }
@@ -193,11 +200,13 @@ fieldset {
     font-size: 0.8rem;
   }
 
+    /* Responsive styling for the modal content */
   .modal-content {
     width: 100%;
     font-size: 12px;
   }
 
+  /* Responsive styling for the modal button */
   form button {
     font-size: 12px;
   }
